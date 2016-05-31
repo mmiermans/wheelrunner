@@ -1,3 +1,6 @@
+# Secure files
+wheelrunner/config.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -15,11 +18,14 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
 var/
+bin/
+include/
+local/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -60,3 +66,6 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# pip
+pip-selfcheck.json

@@ -1,0 +1,9 @@
+google = dict(
+  server_key = '<INSERT_KEY>',
+)
+forcastio = dict(
+  api_key = '<INSERT_KEY>',
+)
+telegram = dict(
+    token = '<INSERT_KEY>',
+)
