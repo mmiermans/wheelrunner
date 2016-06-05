@@ -22,7 +22,7 @@ def echo(bot, update):
 
 def main():
     # start Telegram bot
-    updater = Updater(token=config.token)
+    updater = Updater(token=config.telegram.token)
     job_queue = updater.job_queue
     dispatcher = updater.dispatcher
 
