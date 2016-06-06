@@ -1,20 +1,7 @@
 import config
 import time
 import requests
-
-class Place(object):
-
-    def __init__(self, data):
-        self.data = data
-
-    @property
-    def lat(self):
-        return self.data['geometry']['location']['lat']
-
-    @property
-    def lng(self):
-        return self.data['geometry']['location']['lng']
-
+from models.place import Place
 
 class Geocoding(object):
     
